@@ -5,20 +5,34 @@ html, body{
 }
 
 header{
-	background-color: #ffe5e5;
+	background-image: url('http://assets.rollingstone.com/assets/2014/article/twin-peaks-to-return-to-tv-in-2016-20141006/170592/large_rect/1412612141/1401x788-Screen%20Shot%202014-10-06%20at%2012.14.53%20PM.png');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
 	padding: 40px;
 	text-align: center;
 }
 
 h1{
 	font-size: 90px;
-	color: #4c3340;
+	color: #331a00;
+	text-shadow: -1px 2px 20px #66ff33;
+	max-width: 100%;
+}
+
+h2{
+	font-size: 30px;
+	text-shadow: 3px 3px 5px #66ff33;
 }
 
 header img{
 	border-radius: 500px;
 	width: 400px;
-	border: 20px solid white;
+	border: 10px solid #331a00;
+	max-width: 100%;
+	text-align: center;
+	box-shadow: 0px 0px 30px #66ff33;
 
 }
 
@@ -49,9 +63,13 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	color: #ffe5e5;
+}
+
 footer{
 	padding: 40px 20px;
-	background-color: #e6e6e6;
+	background-color: #ffe5e5;
 }
 
 footer ul{
@@ -61,4 +79,13 @@ footer ul{
 footer ul li{
 	display: inline-block;
 	margin: 0px 5px;
+}
+footer a{
+	color: #66ff33;
+}
+footer a:hover{
+	color: white;
+	font-weight: bold;
+	font-size: 14pt;
+	text-decoration: underline;
 }
